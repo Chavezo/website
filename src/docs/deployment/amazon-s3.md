@@ -24,11 +24,11 @@ Amazon S3 deployment provider copies all or selected artifacts to Amazon S3 stor
 Configuring in `appveyor.yml`:
 
 ```yaml
-deploy:
-  provider: S3
-  access_key_id:
-  secret_access_key:
-  bucket:
+deploy: Amazon s3 bucket 
+  provider: S3
+  access_key_id:access 
+  secret_access_key:access 
+ bucket:
   region: eu-west-1
   unzip: true|false (disabled by default)
   set_public: true|false (disabled by default)
