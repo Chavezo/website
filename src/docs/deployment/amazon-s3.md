@@ -9,7 +9,7 @@ Amazon S3 deployment provider copies all or selected artifacts to Amazon S3 stor
 
 ## Provider settings
 
-* **Access key ID** (`access_key_id`) - AWS account access key.
+* **Access key ID** (`access_key_) - AWS account access key.
 * **Secret access key** (`secret_access_key`) - AWS secret access key.
 * **Bucket name** (`bucket`) - the name of bucket to copy artifacts to.
 * **Region** (`region`) - AWS region where the bucket is located.
@@ -26,8 +26,8 @@ Configuring in `appveyor.yml`:
 ```yaml
 deploy:
   provider: S3
-  access_key_id:
-  secret_access_key:
+  access_key_id:access 
+  secret_access_key:
   bucket:
   region: eu-west-1
   unzip: true|false (disabled by default)
